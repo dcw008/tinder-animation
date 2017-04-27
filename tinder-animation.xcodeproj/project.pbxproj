@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4CEC973A1EB15666000D5D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC97391EB15666000D5D70 /* AppDelegate.swift */; };
-		4CEC973C1EB15666000D5D70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC973B1EB15666000D5D70 /* ViewController.swift */; };
 		4CEC973F1EB15666000D5D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEC973D1EB15666000D5D70 /* Main.storyboard */; };
 		4CEC97411EB15666000D5D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEC97401EB15666000D5D70 /* Assets.xcassets */; };
 		4CEC97441EB15666000D5D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEC97421EB15666000D5D70 /* LaunchScreen.storyboard */; };
+		4CEC974C1EB15789000D5D70 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC974B1EB15789000D5D70 /* CardsViewController.swift */; };
+		4CEC974E1EB17C42000D5D70 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC974D1EB17C42000D5D70 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4CEC97361EB15666000D5D70 /* tinder-animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tinder-animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEC97391EB15666000D5D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CEC973B1EB15666000D5D70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CEC973E1EB15666000D5D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CEC97401EB15666000D5D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CEC97431EB15666000D5D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CEC97451EB15666000D5D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CEC974B1EB15789000D5D70 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		4CEC974D1EB17C42000D5D70 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				4CEC97391EB15666000D5D70 /* AppDelegate.swift */,
-				4CEC973B1EB15666000D5D70 /* ViewController.swift */,
 				4CEC973D1EB15666000D5D70 /* Main.storyboard */,
 				4CEC97401EB15666000D5D70 /* Assets.xcassets */,
 				4CEC97421EB15666000D5D70 /* LaunchScreen.storyboard */,
 				4CEC97451EB15666000D5D70 /* Info.plist */,
+				4CEC974B1EB15789000D5D70 /* CardsViewController.swift */,
+				4CEC974D1EB17C42000D5D70 /* DetailViewController.swift */,
 			);
 			path = "tinder-animation";
 			sourceTree = "<group>";
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CEC973C1EB15666000D5D70 /* ViewController.swift in Sources */,
+				4CEC974E1EB17C42000D5D70 /* DetailViewController.swift in Sources */,
 				4CEC973A1EB15666000D5D70 /* AppDelegate.swift in Sources */,
+				4CEC974C1EB15789000D5D70 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

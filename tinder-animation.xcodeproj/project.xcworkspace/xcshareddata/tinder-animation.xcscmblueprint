@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A25CB12D47E5E10A01D61BA96ADF85568A2CAC18",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A25CB12D47E5E10A01D61BA96ADF85568A2CAC18" : 9223372036854775807,
+    "103F2508917973CC7BC3FC00FB956D77824FC0D0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A58A58A8-D230-4CEF-94FB-057C6060F0E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A25CB12D47E5E10A01D61BA96ADF85568A2CAC18" : "tinder-animation\/",
+    "103F2508917973CC7BC3FC00FB956D77824FC0D0" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tinder-animation",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tinder-animation.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dcw008\/twitter-clone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "103F2508917973CC7BC3FC00FB956D77824FC0D0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dcw008\/tinder-animation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A25CB12D47E5E10A01D61BA96ADF85568A2CAC18"
+    }
+  ]
+}
